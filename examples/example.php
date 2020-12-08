@@ -35,6 +35,6 @@ print_r($api->addContactMessage($item));
 print_r($items);
 
 // send feedback
-$result = $api->pingBack(2247560, 'AVAILABLE', 'Dit is een test-feedback', '1', 'http://www.eribo.be');
+$result = $api->pingBack(2247560, 'AVAILABLE', 'Dit is een test-feedback', '1', 'http://www.skarabee.com');
 
 print_r($result);
